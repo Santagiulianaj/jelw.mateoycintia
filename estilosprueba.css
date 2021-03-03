@@ -38,6 +38,7 @@ html, body{
 #c-text{
     position: absolute;
     font-family: 'Cookie', cursive;
+    margin-top: 70px !important;
     
 }
 a{
