@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <title>Melisa y Juan</title>
+    <title>Mateo Y Cintia</title>
 </head>
 <body>
     <!--pantalla de carga-->
@@ -57,61 +57,17 @@
             <div id="decoration" class="container w-50 pl-5 rounded-lg">
                 <div class="row align-items-center">
                     <div class="col-sm p-3 text-light text-center">
-                        <h1 class="text-shadow display-3">juntos</h1>
-                        <h1 class="text-shadow display-3">todo es increíble</h1>
+                        <h1 class="text-shadow display-3">¡Sorpresa, mi amor!</h1>
+                        <h1 class="text-shadow display-3"></h1>
                     </div>
                 </div>
             </div>
         </div>
 
         <!--CAROUSEL-->
-        <div id="carousel-images" class="pt-5">
-            <div class="container-md p-5">
-                <div class="row pb-5">
-                    <div class="col-lg">
-                        <div id="container-carousel" class="card w-100 card-border mb-5 mx-auto">
-                            <div id="carouselExampleCaptions" class="carousel slide" data-interval="false">
-                                <ol class="carousel-indicators">
-                                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-                                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="photos/portada1.jpg" id="photogalery" class="d-block w-100" alt="...">
-                                        <div class="carousel-caption">
-                                            <h1 id="texto1-carousel" class="display-1 text-warning fw-bold text-shadow">vos, yo...</h1>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="photos/portada2.jpg" id="photogalery" class="d-block w-100 mx-auto" alt="...">
-                                        <div class="carousel-caption mx-auto">
-                                            <h1 id="texto2-carousel" class="display-1 text-warning fw-bold text-shadow">y tantos lindos momentos</h1>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="photos/portada3.jpg" id="photogalery" class="d-block w-100" alt="...">
-                                        <div class="carousel-caption">
-                                            <h1 id="texto3-carousel" class="display-1 pb-2 text-warning fw-bold text-shadow">que nunca voy a olvidar</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="texto-carousel-mobile" class="col-lg">
-                        <h1 class="display-1 fw-bold text-shadow text-center">vos, yo... <br/> y tantos lindos momentos <br/> que nunca voy a olvidar</h1>
-                    </div>
-                </div>
-            </div>
+        <div id="carousel-images" class="py-5 text-center">
+            <canvas width="500" height="500" id="mundo" class="py-5">
+            </canvas>
         </div>
 
         <!--SEPARATOR RIBBON-->
@@ -252,7 +208,7 @@
             <div class="container py-5">
                 <div class="row ">
                     <div class="col-9">
-                        <h3  id="texto-video-1" class="text-center fw-bold py-3 my-5 display-4 text-shadow text-light">Quién sabe todo lo que nos espera...</h3>
+                        <h3  id="texto-video-1" class="text-center fw-bold py-3 my-5 display-4 text-shadow text-light">Que la vida siempre nos llene de aventuras...</h3>
                         <button id="button-video-1" onclick="pauseMusic()" class="btn ms-5 btn-warning w-10 font-weight-bolder rounded-pill" role="button">Desactivar música</button>
                         <video id="video" controls class="mb-5 ms-5"  onmouseover="pauseMusic()">
                             <source src="video/video.mp4" type="video/mp4">
@@ -278,8 +234,8 @@
             <div id="decoration" class="container w-50 pl-5 rounded-lg">
                 <div class="row align-items-center">
                     <div class="col-sm p-3 text-light text-center">
-                        <h1 class="text-shadow display-3">Por todo esto</h1>
-                        <h1 class="text-shadow display-3">y más...</h1>
+                        <h1 class="text-shadow display-3">Ahora y</h1>
+                        <h1 class="text-shadow display-3">siempre...</h1>
                     </div>
                 </div>
             </div>
@@ -287,8 +243,8 @@
         <!--END-->
         <div id="end" class="py-5">
             <div class="container-md">
-                <h1 id="end-text" class="display-1 py-5 text-shadow text-center">Te amo, Melisa</h1>
-                <h1 id="end-text-firma" class="display-1 text-shadow text-end text-decoration-underline">Juan</h1>
+                <h1 id="end-text" class="display-1 py-5 text-shadow text-center">Te amo, Mateo</h1>
+                <h1 id="end-text-firma" class="display-1 text-shadow text-end text-decoration-underline">Cintia</h1>
             </div>
         </div>
 
